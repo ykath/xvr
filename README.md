@@ -267,7 +267,8 @@ uv run xvr --version
 Alternatively, you can directly use the virtual environment that `uv` creates:
 
 ```
-source .venv/bin/activate
+#source .venv/bin/activate
+.\.venv\Scripts\Activate.ps1
 xvr --version
 ```
 
